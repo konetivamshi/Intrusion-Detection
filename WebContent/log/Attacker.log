@@ -1,0 +1,103 @@
+2015-12-13 12:44:10 ERROR LoginServlet:125 - Alert  Something wrong with ::a in system name:: adminand System ip Address::192.168.56.1
+2015-12-13 12:44:35 ERROR TlLoginServlet:152 - Alert  Something wrong with ::g in system name:: adminand System ip Address::192.168.56.1
+2015-12-13 12:44:41 ERROR TlLoginServlet:152 - Alert  Something wrong with ::g in system name:: adminand System ip Address::192.168.56.1
+2015-12-13 12:44:45 ERROR TlLoginServlet:152 - Alert  Something wrong with ::g in system name:: adminand System ip Address::192.168.56.1
+2015-12-13 12:44:50 ERROR TlLoginServlet:152 - Alert  Something wrong with ::g in system name:: adminand System ip Address::192.168.56.1
+2015-12-13 15:25:29 ERROR EmpSecurityServlet:90 - Employee ==IGATE398==is seeing Employee Details
+2016-02-16 18:44:47 ERROR TlLoginServlet:152 - Alert  Something wrong with ::jjj in system name:: Java1-PCand System ip Address::127.0.0.12016-03-04 12:03:22 ERROR TlLoginServlet:152 - Alert  Something wrong with ::gjjhj in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-03-04 12:03:28 ERROR TlLoginServlet:152 - Alert  Something wrong with ::ghjgfhf in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-03-04 12:03:35 ERROR TlLoginServlet:152 - Alert  Something wrong with ::fhdh in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-03-04 12:05:43 ERROR TlLoginServlet:152 - Alert  Something wrong with ::wwww in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-03-04 12:05:49 ERROR TlLoginServlet:152 - Alert  Something wrong with ::wwww in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-03-04 12:05:54 ERROR TlLoginServlet:152 - Alert  Something wrong with ::wwwww in system name:: Java1-PCand System ip Address::127.0.0.1
+2016-04-12 13:42:54 ERROR EmpSecurityServlet:90 - Employee ==IGATE803==is seeing Employee Details
+2016-04-12 13:54:12 ERROR EmpSecurityServlet:90 - Employee ==IGATE803==is seeing Employee Details
+2016-04-13 11:47:02 ERROR EmpSecurityServlet:90 - Employee ==IGATE803==is seeing Employee Details
+2016-04-13 11:53:24 ERROR EmpSecurityServlet:90 - Employee ==IGATE803==is seeing Employee Details
+2017-01-26 14:16:01 ERROR EmpSecurityServlet:90 - Employee ==IGATE307==is seeing Employee Details
+2017-01-26 14:19:24 ERROR TlLoginServlet:152 - Alert  Something wrong with ::fsfs in system name:: DESKTOP-2F4GPJIand System ip Address::192.168.1.11
+2017-03-03 22:44:06 ERROR SchemaUpdate:134 - could not get database metadata
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'intrusiondetection'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:187)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1294)
+	at com.Intrusion.Connection.ConnectionImpl.getSessionFactory(ConnectionImpl.java:38)
+	at com.Intrusion.Connection.ConnectionImpl.getSession(ConnectionImpl.java:56)
+	at com.Intrusion.Dao.DaoImplementation.<init>(DaoImplementation.java:33)
+	at com.Intrusion.Servlet.ManagerLogin.doPost(ManagerLogin.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2017-03-03 22:44:06 ERROR SchemaUpdate:165 - could not complete schema update
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'intrusiondetection'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:812)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3269)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1182)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2670)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1531)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:571)
+	at java.sql.DriverManager.getConnection(DriverManager.java:187)
+	at org.hibernate.connection.DriverManagerConnectionProvider.getConnection(DriverManagerConnectionProvider.java:110)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:27)
+	at org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(SchemaUpdate.java:127)
+	at org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:314)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1294)
+	at com.Intrusion.Connection.ConnectionImpl.getSessionFactory(ConnectionImpl.java:38)
+	at com.Intrusion.Connection.ConnectionImpl.getSession(ConnectionImpl.java:56)
+	at com.Intrusion.Dao.DaoImplementation.<init>(DaoImplementation.java:33)
+	at com.Intrusion.Servlet.ManagerLogin.doPost(ManagerLogin.java:50)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:646)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:315)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+2017-03-03 22:44:06 ERROR JDBCExceptionReporter:78 - Unknown database 'intrusiondetection'

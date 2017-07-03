@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.Intrusion.PojoClass.TlBehaviour" table="TlBehaviour">
+<id name="id" column="Id"  >
+<generator class="increment"></generator>
+</id>
+<property name="Empid"/>
+<property name="dummyname"/>
+<property name="projectView"/>
+<property name="salaryDetailsView"/>
+<property name="paySlipDownload"/>
+<property name="salaryDelete"/>
+<property name="projectAllocation"/>
+<property name="MeetingsView"/>
+<property name="UserReportView" />
+<property name="UserModulesView"/>
+</class>
+ 
+
+</hibernate-mapping>

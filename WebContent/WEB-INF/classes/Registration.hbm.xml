@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.Intrusion.PojoClass.userRegistrationPojoClass" table="usertable">
+<id name="id" column="Id"  >
+<generator class="increment"></generator>
+</id>
+<property name="Empid"/>
+<property name="Secreatid"/>
+ <property name="username" />
+<property name="password"/>
+<property name="email"/>
+<property name="designation"/>
+<property name="phone"/>
+<property name="DateofBirth"/>
+<property name="Address"/>
+<property name="ipddress"/>
+</class>
+ 
+
+</hibernate-mapping>
